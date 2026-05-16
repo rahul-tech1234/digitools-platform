@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Banner from "./components/Banner/Banner";
 import State from "./components/State/State";
 import WorkFlow from "./components/UI/WorkFlow/WorkFlow";
+import TransparentPricing from "./components/TransparentPricing/TransparentPricing";
 function App() {
  
   return (
@@ -11,8 +12,9 @@ function App() {
     <Banner></Banner>
     <State></State>
     <WorkFlow></WorkFlow>
+    <TransparentPricing></TransparentPricing>
     
-    </>
+     </>
   )
 }
 
